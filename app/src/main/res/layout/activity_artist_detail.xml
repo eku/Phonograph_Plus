@@ -31,7 +31,6 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/inner_app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -78,7 +77,6 @@
                             android:paddingRight="16dp">
 
                             <ImageView
-                                android:id="@+id/album_count_icon"
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_marginStart="0dp"
@@ -88,7 +86,6 @@
                                 tools:ignore="ContentDescription,UnusedAttribute" />
 
                             <TextView
-                                android:id="@+id/album_count_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
@@ -107,7 +104,6 @@
                             android:paddingRight="16dp">
 
                             <ImageView
-                                android:id="@+id/song_count_icon"
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_marginStart="0dp"
@@ -136,7 +132,6 @@
                             android:paddingRight="16dp">
 
                             <ImageView
-                                android:id="@+id/duration_icon"
                                 android:layout_width="24dp"
                                 android:layout_height="24dp"
                                 android:layout_marginStart="0dp"
@@ -161,21 +156,18 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/main_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/album_recycle_view"
                 android:layout_width="match_parent"
                 android:layout_height="164dp"
                 android:layout_marginTop="8dp"
                 android:scrollbars="none" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/songs_recycle_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="8dp"

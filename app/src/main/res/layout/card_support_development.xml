@@ -39,7 +39,6 @@
             android:paddingRight="16dp">
 
             <player.phonograph.ui.views.IconImageView
-                android:id="@+id/icon_intro"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 app:srcCompat="@drawable/ic_assignment_turned_in_white_24dp"
@@ -58,7 +57,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/report_bugs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/rectSelector"
@@ -70,7 +68,6 @@
             android:paddingRight="16dp">
 
             <player.phonograph.ui.views.IconImageView
-                android:id="@+id/icon_bug_report"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 app:srcCompat="@drawable/ic_bug_report_white_24dp"
@@ -114,7 +111,6 @@
             android:paddingRight="16dp">
 
             <player.phonograph.ui.views.IconImageView
-                android:id="@+id/icon_flag"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 app:srcCompat="@drawable/ic_flag_white_24dp"
@@ -158,7 +154,6 @@
             android:paddingRight="16dp"
             >
             <player.phonograph.ui.views.IconImageView
-                android:id="@+id/icon_donate"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 tools:ignore="ContentDescription,UnusedAttribute" />

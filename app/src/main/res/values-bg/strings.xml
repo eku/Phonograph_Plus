@@ -68,14 +68,9 @@
     <string name="light_theme_name">Светъл изглед</string>
     <string name="dark_theme_name">Тъмен изглед</string>
     <string name="black_theme_name">Черен изглед (AMOLED дисплеи)</string>
-    <string name="always">Винаги</string>
-    <string name="only_on_wifi">Само чрез Wi-Fi</string>
-    <string name="never">Никога</string>
     <string name="equalizer">Еквилайзер</string>
     <string name="pref_header_colors">Цветове</string>
-    <string name="pref_header_now_playing_screen">Текуща песен</string>
     <string name="pref_title_general_theme">Главна тема</string>
-    <string name="pref_header_audio">Аудио</string>
     <string name="pref_header_images">Изображения</string>
     <string name="pref_title_navigation_bar">Оцветени навигационни бутони</string>
     <string name="pref_title_app_shortcuts">Оцветяване на бутоните</string>
@@ -86,7 +81,6 @@
     <string name="no_audio_ID">Първо пусни песен, тогава пробвай отново</string>
     <string name="delete_action">Изтрий</string>
     <string name="clear_action">Изчисти</string>
-    <string name="remove_action">Премахни</string>
     <string name="rename_action">Преименувай</string>
     <string name="create_action">Създай</string>
     <string name="x_selected">%1$d бе избрано</string>
@@ -96,7 +90,6 @@
     <string name="accent_color_desc">Цветът по подразбиране на акцентите е розов.</string>
     <string name="update_image">Обнови снимката</string>
     <string name="playlist_empty_text">Празен плейлист</string>
-    <string name="no_playlists">Няма плейлисти</string>
     <string name="empty">Празен</string>
     <string name="playlist_name_empty">Име на плейлист</string>
     <string name="song">Песен</string>
@@ -111,9 +104,7 @@
     <string name="history">История</string>
     <string name="my_top_tracks">Моите топ песни</string>
     <string name="remove_cover">Премахни обложка</string>
-    <string name="download_from_last_fm">Изтегли от Last.fm</string>
     <string name="pick_from_local_storage">Избери от телефон</string>
-    <string name="web_search">Уеб търсене</string>
     <string name="action_sleep_timer">Таймер за заспиване</string>
     <string name="action_set">Задай</string>
     <string name="cancel_current_timer">Премахни текущия таймер</string>
@@ -126,7 +117,6 @@
     <string name="changelog">Последни промени</string>
     <string name="licenses">Лицензи</string>
     <string name="permissions_denied">Достъпът е отказан.</string>
-    <string name="permission_external_storage_denied">Достъпът до външното място за съхранение е отказан.</string>
     <string name="support_development">Подкрепете развитието</string>
     <string name="version">Версия</string>
     <string name="author">Автор</string>
@@ -155,7 +145,6 @@
     <string name="app_widget_big_name">Phonograph - Голям</string>
     <string name="app_widget_classic_name">Phonograph - Класически</string>
     <string name="app_widget_small_name">Phonograph - Малък</string>
-    <string name="report_an_issue">Съобщете за проблем</string>
     <string name="title">Заглавие</string>
     <string name="description">Описание</string>
     <string name="device_info">Информация за устройството</string>

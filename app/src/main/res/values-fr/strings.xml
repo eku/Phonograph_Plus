@@ -71,27 +71,12 @@
     <string name="dark_theme_name">Sombre</string>
     <string name="black_theme_name">Noir (Amoled)</string>
     <string name="auto_theme_name">Automatique</string>
-    <string name="always">Toujours</string>
-    <string name="only_on_wifi">Uniquement en Wi-Fi</string>
-    <string name="never">Jamais</string>
-    <string name="today">Aujourd\'hui</string>
-    <string name="past_seven_days">7 derniers jours</string>
-    <string name="past_fourteen_days">14 derniers jours</string>
-    <string name="past_one_month">Le mois dernier</string>
-    <string name="past_three_months">Les 3 derniers mois</string>
-    <string name="this_week">Cette semaine</string>
-    <string name="this_month">Ce mois</string>
-    <string name="this_year">Cette année</string>
     <string name="equalizer">Égaliseur</string>
     <string name="pref_header_colors">Couleurs</string>
-    <string name="pref_header_now_playing_screen">Lecture en cours</string>
     <string name="pref_title_general_theme">Thème général</string>
     <string name="pref_header_player_behaviour">Comportement du lecteur</string>
-    <string name="pref_header_library">Bibliothèque</string>
-    <string name="pref_header_playlists">Listes de lecture</string>
     <string name="pref_title_navigation_bar">Barre de navigation colorée</string>
     <string name="pref_title_app_shortcuts">Raccourcis de l\'application colorés</string>
-    <string name="pref_title_auto_download_metadata">Télécharger automatiquement les métadonnées</string>
     <string name="pref_title_colored_notification">Notification colorée</string>
     <string name="pref_title_classic_notification">Style de notification classique</string>
     <string name="pref_title_gapless_playback">Lecture sans coupure</string>
@@ -104,7 +89,6 @@
     <string name="no_audio_ID">Lancez d\'abord un morceau, puis réessayez.</string>
     <string name="delete_action">Supprimer</string>
     <string name="clear_action">Effacer</string>
-    <string name="remove_action">Retirer</string>
     <string name="rename_action">Renommer</string>
     <string name="create_action">Créer</string>
     <string name="reset_action">Réinitialiser</string>
@@ -115,7 +99,6 @@
     <string name="accent_color_desc">La couleur secondaire du thème</string>
     <string name="update_image">Actualiser l\'image</string>
     <string name="playlist_empty_text">Playlist vide</string>
-    <string name="no_playlists">Aucune playlist</string>
     <string name="empty">Vide</string>
     <string name="playlist_name_empty">Nom de la playlist</string>
     <string name="song">Titre</string>
@@ -133,9 +116,7 @@
     <string name="history">Joués récemment</string>
     <string name="my_top_tracks">Titres les plus écoutés</string>
     <string name="remove_cover">Supprimer la pochette</string>
-    <string name="download_from_last_fm">Télécharger depuis Last.fm</string>
     <string name="pick_from_local_storage">Selectionner dans l\'appareil</string>
-    <string name="web_search">Recherche internet</string>
     <string name="action_sleep_timer">Minuteur sommeil</string>
     <string name="action_set">Définir</string>
     <string name="cancel_current_timer">Désactiver le minuteur actuel</string>
@@ -148,7 +129,6 @@
     <string name="changelog">Historique des mises à jour</string>
     <string name="licenses">Licences</string>
     <string name="permissions_denied">Permissions refusées.</string>
-    <string name="permission_external_storage_denied">Accès au stockage externe refusé.</string>
     <string name="support_development">Faire un don</string>
     <string name="author">Auteur</string>
     <string name="write_an_email">Écrire un email</string>
@@ -181,7 +161,6 @@
     <string name="app_widget_classic_name">Phonograph - Classique</string>
     <string name="app_widget_small_name">Phonograph - Petit</string>
     <string name="app_widget_card_name">Phonograph - Carte</string>
-    <string name="report_an_issue">Signaler un problème</string>
     <string name="title">Titre</string>
     <string name="device_info">Infos sur l\'appareil</string>
     <string name="bug_report_manual">Envoyer manuellement</string>
@@ -195,13 +174,11 @@
     <string name="eugene_cheung_summary">Pour ses contributions au code source</string>
     <string name="adrian_summary">Pour avoir créé le design de la page d\'album </string>
     <string name="add_action">Ajouter</string>
-    <string name="blacklist">Liste noire</string>
     <string name="reset_artist_image">Réinitialiser l\'image de l\'artiste</string>
     <string name="set_artist_image">Actualiser l\'image de l\'artiste</string>
     <string name="library_categories">Catégories de la bibliothèque</string>
     <string name="pref_summary_library_categories">Configurer la visibilité et l\'ordre des catégories.</string>
     <string name="you_have_to_select_at_least_one_category">Vous devez sélectionner au moins une catégorie.</string>
-    <string name="action_scan_directory">Scanner le dossier.</string>
     <string name="scan_media">Scanner les médias.</string>
     <string name="action_sort_order">Ordre de tri</string>
     <string name="sort_order_a_z">Ascendant</string>
@@ -214,7 +191,6 @@
     <string name="dialog_ringtone_message">Autoriser Phonograph à modifier les paramètres audio</string>
     <string name="perf_title_fixed_tab_layout">Corriger tous les onglets</string>
     <string name="pref_summary_fixed_tab_layout">Les onglets en haut ne seront plus défilables, mais seront pavés sans aucune marge.</string>
-    <string name="auto_mode_on">Le mode automatique est activé, veuillez le désactiver et réessayer!</string>
     <string name="add_blacklist">Souhaitez-vous ajouter ceci à la liste noire ?</string>
     <string name="other_information">Autre</string>
     <string name="more_actions">Plus</string>
@@ -251,7 +227,6 @@
     <string name="pref_title_display_lyrics_time_axis">Afficher l\'axe du temps des paroles</string>
     <string name="pref_summary_display_lyrics_time_axis">Afficher le temps de démarrage des paroles synchronisées dans la boîte de dialogue des paroles.</string>
     <string name="upgrade_notification_name">Mise à jour</string>
-    <string name="upgrade_notification_description">Les notifications de l\'application peuvent être mises à jour.</string>
     <string name="action_add_to_black_list">Ajouter à la liste noire</string>
     <string name="sort_order_song">Titre</string>
     <string name="sort_order_duration">Durée</string>
@@ -279,7 +254,6 @@
     <string name="sort_order_song_count">Nombre de morceaux</string>
     <string name="sort_order_album_count">Nombre d\'albums</string>
     <string name="name">Nom</string>
-    <string name="preferences">Préférences</string>
     <string name="pref_title_playlist_files_operation_behaviour">Comportement opérationnel pour les fichiers de playlist</string>
     <string name="pref_summary_playlist_files_operation_behaviour">Comportements sur la façon de gérer les fichiers de playlist lors de la création, de la modification etc. pour les playlists des fichiers.</string>
     <string name="behaviour_auto">Automatique</string>

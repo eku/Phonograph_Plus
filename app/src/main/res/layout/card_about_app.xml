@@ -90,7 +90,6 @@
                 tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
             <TextView
-                android:id="@+id/app_version_hash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -125,7 +124,6 @@
                 android:paddingRight="16dp">
 
                 <player.phonograph.ui.views.IconImageView
-                    android:id="@+id/icon_changelog"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     app:srcCompat="@drawable/ic_restore_white_24dp"
@@ -144,7 +142,6 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/check_upgrade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/rectSelector"
@@ -156,7 +153,6 @@
                 android:paddingRight="16dp">
 
                 <player.phonograph.ui.views.IconImageView
-                    android:id="@+id/icon_check_upgrade"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     app:srcCompat="@drawable/ic_refresh_white_24dp"
@@ -176,7 +172,6 @@
 
 
             <LinearLayout
-                android:id="@+id/fork_on_github"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/rectSelector"
@@ -188,7 +183,6 @@
                 android:paddingRight="16dp">
 
                 <player.phonograph.ui.views.IconImageView
-                    android:id="@+id/icon_github"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     app:srcCompat="@drawable/ic_github_circle_white_24dp"
@@ -219,7 +213,6 @@
                 android:paddingRight="16dp">
 
                 <player.phonograph.ui.views.IconImageView
-                    android:id="@+id/icon_licenses"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     app:srcCompat="@drawable/ic_description_white_24dp"

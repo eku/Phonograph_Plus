@@ -73,27 +73,13 @@
     <string name="light_theme_name">Světlý</string>
     <string name="dark_theme_name">Tmavý</string>
     <string name="black_theme_name">Černý (AMOLED)</string>
-    <string name="always">Vždy</string>
-    <string name="only_on_wifi">Jenom na Wi-Fi</string>
-    <string name="never">Nikdy</string>
-    <string name="today">Dnes</string>
-    <string name="past_seven_days">Posledních 7 dní</string>
-    <string name="past_three_months">Poslední 3 měsíce</string>
-    <string name="this_week">Tento týden</string>
-    <string name="this_month">Tento měsíc</string>
-    <string name="this_year">Tento rok</string>
     <string name="equalizer">Ekvalizér</string>
     <string name="pref_header_colors">Barvy</string>
-    <string name="pref_header_now_playing_screen">Právě hraje</string>
     <string name="pref_title_general_theme">Motiv</string>
-    <string name="pref_header_audio">Zvuk</string>
-    <string name="pref_header_library">Knihovna</string>
     <string name="pref_header_images">Obrázky</string>
-    <string name="pref_header_playlists">Seznamy skladeb</string>
     <string name="pref_header_notification">Oznámení</string>
     <string name="pref_title_navigation_bar">Barevné záhlaví</string>
     <string name="pref_title_app_shortcuts">Barevné zkratky aplikace</string>
-    <string name="pref_title_auto_download_metadata">Automaticky stahovat metadata</string>
     <string name="pref_title_colored_notification">Barevné notifikace</string>
     <string name="pref_title_classic_notification">Klasický vzhled oznámení</string>
     <string name="pref_title_gapless_playback">Přehrávání bez mezer</string>
@@ -106,7 +92,6 @@
     <string name="no_audio_ID">Nejdříve přehrajte píseň, poté zkuste znovu. </string>
     <string name="delete_action">Smazat</string>
     <string name="clear_action">Vyčistit</string>
-    <string name="remove_action">Odstranit</string>
     <string name="rename_action">Přejmenovat</string>
     <string name="create_action">Vytvořit</string>
     <string name="reset_action">Resetovat</string>
@@ -117,7 +102,6 @@
     <string name="accent_color_desc">Vedlejší barva motivu</string>
     <string name="update_image">Změnit obrázek</string>
     <string name="playlist_empty_text">Tento playlist je prázdný</string>
-    <string name="no_playlists">Žádný playlist</string>
     <string name="empty">Prázdné</string>
     <string name="playlist_name_empty">Pojmenování seznamu skladeb</string>
     <string name="song">Skladba</string>
@@ -135,9 +119,7 @@
     <string name="history">Nedávno přehrané</string>
     <string name="my_top_tracks">Moje nejposlouchanější skladby </string>
     <string name="remove_cover">Odstranit obal</string>
-    <string name="download_from_last_fm">Stáhnout z Last.fm</string>
     <string name="pick_from_local_storage">Vybrat z místního úložiště</string>
-    <string name="web_search">Najít na webu</string>
     <string name="action_sleep_timer">Určit ukončení přehrávání</string>
     <string name="action_set">Nastavit</string>
     <string name="cancel_current_timer">Zrušit ukončení přehrávání</string>
@@ -150,7 +132,6 @@
     <string name="changelog">Co je nového </string>
     <string name="licenses">Licence</string>
     <string name="permissions_denied">Oprávnění zamítnuta. </string>
-    <string name="permission_external_storage_denied">Přístup k otevření externího úložiště zamítnut. </string>
     <string name="support_development">Podpořte vývoj</string>
     <string name="version">Verze</string>
     <string name="author">Autor</string>
@@ -183,7 +164,6 @@
     <string name="app_widget_classic_name">Phonograph - Klasický</string>
     <string name="app_widget_small_name">Phonograph - Malý</string>
     <string name="app_widget_card_name">Phonograph - Karta</string>
-    <string name="report_an_issue">Nahlásit problém</string>
     <string name="title">Název</string>
     <string name="description">Popis</string>
     <string name="device_info">Informace o zařízení</string>
@@ -203,7 +183,6 @@
     <string name="library_categories">Kategorie knihovny</string>
     <string name="pref_summary_library_categories">Nastavit viditelnost a pořadí kategorií knihoven.</string>
     <string name="you_have_to_select_at_least_one_category">Musíte zvolit alespoň jednu kategorii.</string>
-    <string name="action_scan_directory">Skenování adresáře</string>
     <string name="scan_media">Skenování médií</string>
     <string name="action_sort_order">Seřazení</string>
     <string name="sort_order_a_z">Vzestupně</string>

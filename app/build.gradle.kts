@@ -82,7 +82,7 @@ android {
         }
     }
 
-    flavorDimensions += listOf("channel")
+    flavorDimensions += listOf("target", "channel")
     productFlavors {
         // Stable or LTS release
         create("stable") {
@@ -111,6 +111,19 @@ android {
 
             manifestPlaceholders["GIT_COMMIT_HASH"] = getGitHash(false)
         }
+
+        create("mainstream") {
+            dimension = "target"
+
+            isDefault = true
+        }
+        create("legacy") {
+            dimension = "target"
+            matchingFallbacks.add("mainstream")
+
+            targetSdk = 28
+        }
+
     }
     androidComponents {
         beforeVariants(selector().withBuildType("release")) { variantBuilder ->

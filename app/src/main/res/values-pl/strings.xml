@@ -539,4 +539,5 @@
     <string name="error_unstoppable_service">Nie można zamknąć usługi muzycznej na pierwszym planie lub w użyciu.</string>
     <string name="action_fast_rewind">Szybkie przewijanie do tyłu</string>
     <string name="action_fast_forward">Szybkie przewijanie do przodu</string>
+    <string name="path_selector">Selektor plików</string>
 </resources>
